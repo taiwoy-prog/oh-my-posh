@@ -5,21 +5,16 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#a313a8",
-          "foreground": "#FFEB3B",
-          "style": "plain",
-          "template": "$",
-          "type": "root"
-        },
-        {
           "background": "#01579B",
           "foreground": "#ffffff",
+          "leading_diamond": "<transparent,#49404f>\ue0b0</>",
           "properties": {
             "folder_icon": "...",
             "style": "agnoster_short"
           },
           "style": "diamond",
           "template": " {{ .Path }} ",
+          "trailing_diamond": "\ue0b0",
           "type": "path"
         },
         {
