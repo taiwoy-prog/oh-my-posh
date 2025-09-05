@@ -5,11 +5,20 @@
       "alignment": "left",
       "segments": [
         {
+          "background": "#a313a8",
+          "foreground": "#FFEB3B",
+          "style": "plain",
+          "template": "\u26a1 ",
+          "type": "root"
+        },
+        {
           "background": "#01579B",
           "foreground": "#ffffff",
-          "leading_diamond": "<transparent,#49404f>\ue0b0</>",
+          "leading_diamond": "<transparent,#01579B>\ue0b0</>",
           "properties": {
             "folder_icon": "...",
+            "folder_separator_icon": "<transparent> \ue0bd </>",
+            "home_icon": "\ueb06",
             "style": "agnoster_short"
           },
           "style": "diamond",
